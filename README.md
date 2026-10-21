@@ -95,4 +95,3 @@ The script is configured to find a specific date range pattern on the **first pa
 <div align="center">
 Made with ❤️ and Python
 </div>
-```
