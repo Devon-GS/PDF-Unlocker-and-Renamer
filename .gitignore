@@ -1,5 +1,9 @@
 # Other
 Exe
+locked_files
+processed_files
+log.txt
+cred.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

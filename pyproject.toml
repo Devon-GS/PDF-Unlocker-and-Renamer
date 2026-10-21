@@ -1,0 +1,20 @@
+[project]
+name = "pdf-unlocker-and-renamer"
+version = "0.1.0"
+description = "Unlock pdf and rename for nedbank statements"
+authors = [
+    {name = "Devon",email = "ds.pydev@gmail.com"}
+]
+license = "MIT"
+requires-python = ">=3.10, <3.16"
+dependencies = [
+    "pypdf2 (>=3.0.1,<4.0.0)",
+    "pypdf (>=6.21.1,<7.0.0)"
+]
+
+[tool.poetry]
+package-mode = false
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -6,7 +6,7 @@ from os import path
 from tkinter import messagebox
 from PyPDF2 import PdfReader
 from pypdf import PdfReader, PdfWriter, errors
-from decrypt import password
+from cred import PASSWORD	#python file with the password for bundling
 
 def current_time():
     return datetime.datetime.now().strftime('%d.%m.%Y %H.%M.%S')
@@ -49,7 +49,7 @@ for filename in file_list:
         
         # Check if encrypted
         if reader.is_encrypted:
-            reader.decrypt(password)
+            reader.decrypt(PASSWORD)
 
         # Add all pages to the writer
         for page in reader.pages:
