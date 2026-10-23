@@ -49,7 +49,7 @@ for filename in file_list:
         
         # Check if encrypted
         if reader.is_encrypted:
-            reader.decrypt(PASSWORD)
+            reader.decrypt(str(PASSWORD))
 
         # Add all pages to the writer
         for page in reader.pages:
